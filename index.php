@@ -2,9 +2,9 @@
 <?php
 		$pma='';
 	?>
-<?php require_once "header.php"; 
+<?php require_once "index_header.php"; 
 ?>
-
+<link href="assets/css/style.css" rel="stylesheet"/>
 <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">    
@@ -14,32 +14,54 @@
             </ol>
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="assets/img/banner_1.png" 
+                    <img src="assets/img//banner/banner_1.png" 
                     alt="img1"
                     style="width: 100%;height: auto;"
                     >
                     <div class="carousel-caption">
-                        <h3>LOREM IPSUM</h3>
+                        
+                        <div class='row'>
+                            <div class="column title">
+                                <h3>LOREM IPSUM</h3>
+                            </div>
+                            <div class="column vector">
+                                      <img class="responsive" src="assets/img/icon_vector_1.png" alt="vector1" align="top">
+                            </div> 
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="assets/img/banner_1.png"
+                    <img src="assets/img/banner/banner_1.png"
                     alt="img2"
                     style="width: 100%;height: auto;"
                     >
                     <div class="carousel-caption">
-                        <h3>LOREM IPSUM</h3>
+                         <div class='row'>
+                            <div class="column title">
+                                <h3>LOREM IPSUM</h3>
+                            </div>
+                            <div class="column vector">
+                                      <img class="responsive" src="assets/img/icon_vector_1.png" alt="vector1">
+                            </div> 
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="assets/img/banner_1.png"
+                    <img src="assets/img/banner/banner_1.png"
                     alt="img3"
                     style="width: 100%;height: auto;"
                     >
                     <div class="carousel-caption">
-                        <h3>LOREM IPSUM</h3>
+                          <div class='row'>
+                            <div class="column title">
+                                <h3>LOREM IPSUM</h3>
+                            </div>
+                            <div class="column vector">
+                                      <img class="responsive" src="assets/img/icon_vector_1.png" alt="vector1">
+                            </div> 
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                     </div>
                 </div>
@@ -114,7 +136,8 @@
                     <div id="indexicons">
                         <img src="assets/img/index_icon_3.png">
                     </div>
-                    
+                    <div>
+                    </div>
                     <h1>Lorem Ipsum</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -163,5 +186,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 <?php 
-    require_once "footer.php";
+    require_once "index_footer.php";
 ?>
